@@ -1,0 +1,5 @@
+anna1;kurt1;Peter1;Hans1;Soeren1;Leif1;
+anna2;kurt2;Peter2;Hans2;Soeren2;Leif2;
+anna3;kurt3;Peter3;Hans3;Soeren3;Leif3;
+anna4;kurt4;Peter4;Hans4;Soeren4;Leif4;
+anna5;kurt5;Peter5;Hans5;Soeren5;Leif5;

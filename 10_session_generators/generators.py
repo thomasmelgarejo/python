@@ -5,8 +5,6 @@
 #Return vs Yield: 
 # Return: If you execute a function again it starts from beginning
 # Yield: The execution begins from where it was previously paused
-
-
 class Compute:
     def __iter__(self): #Bruger dunder metoden
         pass
@@ -26,5 +24,3 @@ class Compute:
     print(next(gen))
     print(next(gen))
     print(next(gen))
-
-    print(51773+16677+28642-13000-60000-3000-24000-20000-15000)
