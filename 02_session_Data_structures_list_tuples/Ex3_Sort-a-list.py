@@ -42,10 +42,10 @@ def choosenListSort(list):
 
 print(choosenListSort(listNames))
 
-#Claus løsning
+#Claus løsning ****************
 def a_in(s):
     if 'a' in s.lower():
         return True
     return False
 
-sorted(names, key=a_in)
+sorted(listNames, key=a_in)
