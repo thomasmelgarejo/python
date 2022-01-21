@@ -37,6 +37,7 @@ print('Pring all text: ', soup.get_text)
 
 #PIP COMMANDS
 # Install package-------------------------------------------------->pip install package_name
+# Install specific version----------------------------------------->pip install package_name==x.y.z
 # Uninstall a package---------------------------------------------->pip uninstall package_name
 # List installed packages ----------------------------------------->pip list  
 # Upgrade a package ----------------------------------------------->pip install package_name --upgrade
