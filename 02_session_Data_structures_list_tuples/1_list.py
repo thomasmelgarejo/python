@@ -33,7 +33,7 @@ print(list2[1:5:2])
 
     #DELETE
 del list1[0]
-print(list1)
+print('del', list1)
 
 list1[0] =1
 print(list1)
@@ -46,7 +46,7 @@ print(list1)
 
     #EXTEND(<iterable>)
 list1.extend([1,2,3]) #er stadig den samme list
-print(list1)
+print('extend', list1)
 
 list1 += ['ee']
 print(list1)
