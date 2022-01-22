@@ -6,11 +6,11 @@ class Celsius:
     def to_fahrenheit(self):
         return (self.temperature * 1.8) + 32
 
-    @property
+    @property #getter
     def temperature(self):
         return self._temperature
 
-    @temperature.setter
+    @temperature.setter  #setter
     def temperature(self, value):
         if value < -273.15:
             raise ValueError("Temperature below -273 is not possible")
