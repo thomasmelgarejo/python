@@ -22,11 +22,15 @@ dogObj = Dog("Otto", 3)
 
 #Ændre navn på attributten otto (mutable)
 dogObj.name = "Otto2" 
-#print(dogObj.name) 
+# print('dogObj.name: ',dogObj.name) 
 
-#Kalder Metode med en parameter
+#Kalder instance Metode med en parameter
 objMilner = Dog("Milner", 6)
-#print(objMilner.visernavn("vufvuf"))
+# print('objMilner: ', objMilner.visernavn("vufvuf"))
+
+#**********************************************************************
+#**********                Ny Klasse                     **************
+#**********************************************************************
 
 #Child klasse af Dog, har tilføjet en attribute mere "color"
 class DogChild1(Dog): 
@@ -45,9 +49,9 @@ class DogChild1(Dog):
 dogChildObj = DogChild1("Karl",12,"Red")
 #print(dogChildObj)
 
-#print(dogChildObj.visernavn("vurf", 4))
+print(dogChildObj.visernavn("vurf", 4))
 
-#Anden Child klasse af Dog, har tilføjet en attribute mere "color"
+#Anden Child klasse af Dog, har tilføjet en attribute mere "hight"
 class DogChild2(Dog): 
     def __init__(self, name, age, color, hight):
         self.name = name
@@ -93,5 +97,5 @@ class DogChild3(Dog):
 
 objChild3 = DogChild3("Vuffer",22)
 
-print(objChild3.visernavn()) #bak bak
-print(objChild3.visernavn("lurf lurf")) #lurf lurf
+# print(objChild3.visernavn()) #bak bak
+# print(objChild3.visernavn("lurf lurf")) #lurf lurf
