@@ -14,10 +14,10 @@ def decorator(func):
 def greet():
      print('Hello from function') 
 
-#decorating happens here
+#decorating sker her
 greet = decorator(greet)
 
-#greet() #Køre metode
+# greet() 
 
 #************************************************************************************************
 
@@ -36,9 +36,10 @@ def say_whee():
 
 say_whee = not_during_the_night(say_whee)
 
-#say_whee()
+# say_whee()
 
 #************************************************************************************************
+# Bruger her decorator annotationen
 
 def my_decorator(func):
     def wrapper():
@@ -52,7 +53,7 @@ def say_whee():
     print("Whee!")
 
 
-#say_whee()
+# say_whee()
 
 #*************************************************************************************************
 #Genbrug af decorators fra module
@@ -63,7 +64,7 @@ from importdecor import do_twice
 def say_whee():
     print(f"Hello")
 
-#say_whee()
+# say_whee()
 
 #**************************************************************************************************
 #Decorator funktioner med arguments
@@ -79,7 +80,7 @@ def decorator1(func):
 def say_name(name):
     print(f"My name is {name}")
 
-#say_name("Peter")
+# say_name("Peter")
 
 #****************************************************************************************************
 #Sætte den decorerede funktion op til en return værdi
@@ -97,7 +98,7 @@ def say_name(name):
     print(f"My name is {name}")
     return name
 
-#print(f"Return værdi:", say_name("Hans"))
+# print(f"Return værdi:", say_name("Hans"))
 
 #*****************************************************************************************************
 #Sørge for at den decorerede funktion beholder korrekt dokumentation
@@ -107,7 +108,7 @@ def say_name(name):
 import functools
 
 def decorator3(func):
-    @functools.wraps(func)
+    # @functools.wraps(func)
     def wrapper3(*args, **kwargs):
         print("Before1")
         func(*args, **kwargs)
@@ -120,7 +121,7 @@ def say_name3(name):
     print(f"My name is {name}")
     return name
 
-#help(say_name3) #say_name3(name)
+# help(say_name3) #say_name3(name)
 
 
 #*************************************************************************************
@@ -138,7 +139,7 @@ def timer(func):
         end_time = time.perf_counter()      # 2
         run_time = end_time - start_time    # 3
         print(f"Finished {func.__name__!r} in {run_time:.4f} secs")
-        return value
+        # return value
     return wrapper_timer
 
 @timer
@@ -146,4 +147,4 @@ def waste_some_time(num_times):
     for _ in range(num_times):
         sum([i**2 for i in range(10000)])
 
-waste_some_time(9999)
+# waste_some_time(2000)
