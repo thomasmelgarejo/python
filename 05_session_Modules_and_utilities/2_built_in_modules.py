@@ -1,7 +1,7 @@
 #built-in modules er programmeret i C
 #https://www.tutorialsteacher.com/python/collections-module
 
-#6 grupper modules
+#6 built-in moduler
 #OS
 #Sys 
 #Math
@@ -20,10 +20,13 @@ print('What the dir here? ', os.getcwd())
 #--Ændre til directory
 #os.chdir(C:\proram\aa)
 
-#sys module************************************************
+#sys module***********************************************
+#System-specific parameters and functions
+#Python Interpreter
 import sys
 
-#sys.exit      #--> exit tilbage til console
+sys.exit      #--> exit tilbage til console
+
 print('Largest int a variable can take: ',sys.maxsize)
 # print('python modules locations: ' , sys.path)
 

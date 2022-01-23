@@ -30,7 +30,7 @@ class person:
         self.name = name
         self.age = age
     def __str__(self):
-        return f"fuk you {self.name} med din skide alder paa: {self.age}" #svarre til tostring i java model klasse
+        return f"you {self.name} med din alder paa: {self.age}" #svarre til tostring i java model klasse
 
 persin1 = person(name="kaj", age=2)
-print(persin1) #fuk you kaj med din skide alder paa: 2
+print(persin1) #you kaj med din alder paa: 2

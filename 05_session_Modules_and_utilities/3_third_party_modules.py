@@ -2,7 +2,7 @@
 
 #step1 - Er de korrekte tools installere? pip?
 # py --version                  --> Python 3.9.6
-# py py -m pip --version        --> pip 21.1.3 from C:\Users\
+# py py -m pip --version        --> pip 21.1.3 from C:\Users\----
 
 #step2 - find package - https://pypi.org/
 
