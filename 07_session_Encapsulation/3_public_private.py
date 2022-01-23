@@ -2,7 +2,6 @@
 from private_test import A_Class
 
 class a:
-    
 
     objA_class = A_Class('priv', 'pub')
     # print(objA_class)

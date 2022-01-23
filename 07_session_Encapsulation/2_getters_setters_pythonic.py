@@ -18,11 +18,11 @@ class Myclass2:
     def __str__(self):
         return f"Myclass2: {self.x}"
     
-    #@property
+    @property
     def x(self):
         return self.__x
     
-    #@x.setter
+    @x.setter
     def x(self, x):
         if x < 0:
             self.__x = 0
@@ -31,5 +31,5 @@ class Myclass2:
         else:
             self.__x = x
 
-# objMyclass2 = Myclass2(5000)
-# print(objMyclass2)
+objMyclass2 = Myclass2(5000)
+print(objMyclass2)
