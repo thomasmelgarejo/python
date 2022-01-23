@@ -10,7 +10,6 @@ print('Set1', set1)
 #Second way:
 set2 = {'a', 'b', 'c', 2, 1}
 
-
 # set3 = {[1,2]}  #mutable-NOT working
 # set4 = {(1,2)}  #imutable-working
 
@@ -39,3 +38,21 @@ print('set8', set8) #set8 {'b', 'a', 'c'}
 #isdisjoint
 #issubset
 #issuperset
+
+#check if value is in set
+print(7 in set1) #False
+
+print('***************************************************************************')
+#modifying Sets
+
+    #add
+set1.add(6)
+print(set1)
+
+    #remove
+set1.remove(6)
+print(set1)
+
+#discard
+#pop
+#clear
